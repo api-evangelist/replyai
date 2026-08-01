@@ -1,7 +1,18 @@
 aid: replyai
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/replyai.png
 name: Reply.ai
-description: Reply.ai is a company surfaced as a portfolio company of seedcamp and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Reply.ai was a conversational AI and customer-experience platform founded in 2016 in New York City, building software to automate repetitive customer-service processes and deliver instant, personalized support across a customer's preferred communication channels. The company was acquired by Kustomer in May 2020 and folded into that platform. As of this enrichment pass the reply.ai domain is a parked "for sale" listing with no active product, developer portal, or public API surface, so no API artifacts could be harvested.
 url: https://raw.githubusercontent.com/api-evangelist/replyai/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +20,19 @@ x-backed-by:
 - seedcamp
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: kustomer
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Conversational AI
+- Customer Experience
+- Customer Service
+- Chatbots
+- Automation
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +42,8 @@ maintainers:
 common:
 - type: Website
   url: http://reply.ai
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
